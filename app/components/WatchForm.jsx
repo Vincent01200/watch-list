@@ -41,6 +41,7 @@
 //     )
 // }
 
+"use client"
 
 import { useState } from 'react';
 import { addWatch } from "../server-actions/addWatch";
