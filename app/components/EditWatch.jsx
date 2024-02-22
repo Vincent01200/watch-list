@@ -8,7 +8,7 @@ export default function EditWatch({watch}){
     const [formData,setformData] = useState({
         brand: watch.brand,
         model: watch.model,
-        referenceNumber: watch.reference_number
+        reference_number: watch.reference_number
     })
 
     const handleChange = (e) => setformData({...formData, [e.target.name] : e.target.value})
